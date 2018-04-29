@@ -49,7 +49,7 @@ The arguments used are:
 - -e (Set environment variables)
 
 ## Recommendations
-Create a dedicated folder where you can save on different files the credentials for your Nutanix clusters. This example shows a single cluster (*cluster1*), but you can repeat the same steps for multiple clusters. Also, remember to set the permissions to 600 so only you have read/write access.
+Create a dedicated folder where you can save the credentials for each of your Nutanix clusters on its own file. This example shows a single cluster (*cluster1*), but you can repeat the same steps for multiple clusters. Also, remember to set the permissions of your credential files to 600 so only you have read/write access.
 
 ```bash
 $ mkdir credentials
