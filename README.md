@@ -66,3 +66,5 @@ Now you can run a new container and pass the variables as a file.
 ```bash
 $ docker run -it --rm --env-file cluster1 ncli:latest
 ```
+
+**Disclaimer:** Containerised nCLI is not officially supported by Nutanix. Please use at your own risk.
