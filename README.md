@@ -37,7 +37,7 @@ Also, this image uses variables to pass the required values:
 - NTNX_PASSWORD (UI password)
 
 ```bash
-$ docker run -it --rm -e NTNX_IP=192.168.1.1 -e NTNX_USERNAME=admin -e NTNX_PASSWORD=nutanix/4u ncli:latest
+$ docker run -it --rm -e NTNX_IP=192.168.1.1 -e NTNX_USERNAME=admin -e NTNX_PASSWORD=admin ncli:latest
 
 
 Welcome, admin
@@ -57,7 +57,7 @@ $ cd credentials
 $ cat <<EOF> cluster1
 NTNX_IP=192.168.1.1
 NTNX_USERNAME=admin
-NTNX_PASSWORD=nutanix/4u
+NTNX_PASSWORD=admin
 EOF
 $ chmod 600 cluster1
 ```
